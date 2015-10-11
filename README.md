@@ -19,3 +19,7 @@ interest.
 
 # How to use
 Simple usage instructions are in the comment at the top of the script.
+
+In general - you start the script if it's not running already with a
+SSH_AUTH_SOCK variable pointing at your real ssh-agent. Then you substitute
+this variable to point at the new socket - $HOME/.ssh/agent-fw

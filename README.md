@@ -16,6 +16,11 @@ It would be possible to ask for permission on specific keys, but it requires to
 implement partial ssh-agent protocol support - possible in future if there's
 interest.
 
+# Dependencies
+Requires:
+- Python 3
+- Circuits >= 3.1.x
+- PyMsgBox
 
 # How to use
 Simple usage instructions are in the comment at the top of the script.
